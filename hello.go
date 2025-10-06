@@ -3,7 +3,7 @@ package main
    import "fmt"
    
    func main() {
-       fmt.Printf("Hello, World of Golang!\n")
+       fmt.Printf("Коммит с вечерней прогулки. Гуляю пешком, дышу воздухом.\n")
           }
 
    }
