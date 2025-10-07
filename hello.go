@@ -7,8 +7,8 @@ package main
 }
 
 func main() {
-	greet("Gosha Gopher Developer")
-}
+	greet("Gopher")
+}	
 
 
 
