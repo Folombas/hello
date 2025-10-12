@@ -3,7 +3,7 @@ package main
    import "fmt"
 
 func main() {
-	fmt.Println("Доброе утро, Go-программисты!")
+	fmt.Println("Пишу эту строку, попивая цикорий в бытовке на ферме!")
 }
 
 
