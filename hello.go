@@ -2,8 +2,9 @@ package main
    
    import "fmt"
 
-func main() {
-	fmt.Println("Пишу эту строку, попивая цикорий в бытовке на ферме!")
+func main()  {
+	strNumber := strconv.Itoa(myNumber)
+	fmt.Println("Пишу эту строку в метро!")
 }
 
 
