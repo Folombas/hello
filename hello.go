@@ -4,7 +4,7 @@ package main
 
 func main()  {
 	strNumber := strconv.Itoa(myNumber)
-	fmt.Println("Пишу эту строку в метро!")
+	fmt.Println("Пишу эту строку на перекуре на работе!")
 }
 
 
