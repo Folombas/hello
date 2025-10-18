@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-    var a, b float64
+    var word1, word2 string
     
-    fmt.Scan(&a)
-    fmt.Scan(&b)
+    fmt.Scan(&word1)
+    fmt.Scan(&word2)
     
-    area := a * b
+    result := word1 + " " + word2
     
-    fmt.Printf("Площадь: %.2f кв.м.\n", area)
+    fmt.Println(result)
 }
 
 
