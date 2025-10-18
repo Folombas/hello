@@ -1,16 +1,16 @@
 package main
-   
-   import "fmt"
 
-func main()  {
-	var firstNumber int = 10
-	var secondNumber int = 3
-	var thirdNumber int = 7
-	a := firstNumber
-	b := secondNumber
-	c := thirdNumber
-	sum := a + b + c
-	fmt.Println(sum)
+import "fmt"
+
+func main() {
+    var a, b float64
+    
+    fmt.Scan(&a)
+    fmt.Scan(&b)
+    
+    area := a * b
+    
+    fmt.Printf("Площадь: %.2f кв.м.\n", area)
 }
 
 
