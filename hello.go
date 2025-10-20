@@ -3,7 +3,16 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Коммичу прямо сейчас в метро с телефона одной правой рукою")
+    var num int
+    fmt.Scan(&num)
+    
+    if num > 0 {
+        fmt.Println("Число положительное.")
+    } else if num < 0 {
+        fmt.Println("Число отрицательное.")
+    } else {
+        fmt.Println("Число равно нулю.")
+    }
 }
 
 
