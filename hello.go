@@ -1,18 +1,18 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "strconv"
+)
 
 func main() {
-    var num int
-    fmt.Scan(&num)
+    var age int
+    fmt.Scan(&age)
     
-    if num > 0 {
-        fmt.Println("Число положительное.")
-    } else if num < 0 {
-        fmt.Println("Число отрицательное.")
-    } else {
-        fmt.Println("Число равно нулю.")
-    }
+    ageStr := strconv.Itoa(age)
+    result := "Возраст пользователя: " + ageStr + " лет"
+    
+    fmt.Println(result)
 }
 
 
