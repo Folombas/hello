@@ -1,18 +1,23 @@
 package main
 
-import (
-    "fmt"
-    "strconv"
-)
+import "fmt"
 
 func main() {
-    var age int
-    fmt.Scan(&age)
+    var month int
+    fmt.Scan(&month)
     
-    ageStr := strconv.Itoa(age)
-    result := "Возраст пользователя: " + ageStr + " лет"
-    
-    fmt.Println(result)
+    switch month {
+    case 12, 1, 2:
+        fmt.Println("Зима")
+    case 3, 4, 5:
+        fmt.Println("Весна")
+    case 6, 7, 8:
+        fmt.Println("Лето")
+    case 9, 10, 11:
+        fmt.Println("Осень")
+    default:
+        fmt.Println("Некорректный номер месяца.")
+    }
 }
 
 
