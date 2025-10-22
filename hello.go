@@ -3,20 +3,20 @@ package main
 import "fmt"
 
 func main() {
-    var month int
-    fmt.Scan(&month)
+    var code int
+    fmt.Scan(&code)
     
-    switch month {
-    case 12, 1, 2:
-        fmt.Println("Зима")
-    case 3, 4, 5:
-        fmt.Println("Весна")
-    case 6, 7, 8:
-        fmt.Println("Лето")
-    case 9, 10, 11:
-        fmt.Println("Осень")
+    switch c := code; c {
+    case 1:
+        fmt.Println("Заказ создан")
+    case 2:
+        fmt.Println("В обработке")
+    case 3:
+        fmt.Println("Отправлен")
+    case 4:
+        fmt.Println("Доставлен")
     default:
-        fmt.Println("Некорректный номер месяца.")
+        fmt.Println("Неизвестный статус")
     }
 }
 
