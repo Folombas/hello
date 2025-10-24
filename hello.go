@@ -3,15 +3,15 @@ package main
 import "fmt"
 
 func main() {
-    var n int
-    fmt.Scan(&n)
-    
-    sum := 0
-    for i := 1; i <= n; i++ {
-        sum += i
+    // Обратный отсчет от 10 до 0
+    for i := 10; i >= 0; i-- {
+        fmt.Println(i)
+        
+        // После вывода 0 добавляем сообщение "Старт!"
+        if i == 0 {
+            fmt.Println("Старт!")
+        }
     }
-    
-    fmt.Println(sum)
 }
 
 
