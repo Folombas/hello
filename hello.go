@@ -3,11 +3,24 @@ package main
 import "fmt"
 
 func main() {
-    for i := 1; i <= 50; i++ {
-        // Проверяем на нечетность и выводим только нечетные числа
-        if i%2 != 0 {
-            fmt.Println(i)
-        }
+    var rating float64
+    
+    // Считываем оценку фильма
+    fmt.Print("Введите среднюю оценку фильма (0.0 - 10.0): ")
+    fmt.Scan(&rating)
+    
+    // Используем switch без выражения для проверки диапазонов
+    switch {
+    case rating >= 0.0 && rating <= 3.9:
+        fmt.Println("Ужасно!")
+    case rating >= 4.0 && rating <= 6.9:
+        fmt.Println("Слабовато")
+    case rating >= 7.0 && rating <= 8.4:
+        fmt.Println("Неплохо")
+    case rating >= 8.5 && rating <= 10.0:
+        fmt.Println("Отлично!")
+    default:
+        fmt.Println("Оценка вне диапазона")
     }
 }
 
