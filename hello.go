@@ -8,13 +8,13 @@ func main() {
 
     // Считываем первое число
     fmt.Scan(&a)
-    
+
     // Считываем символ операции
     fmt.Scan(&operation)
-    
+
     // Считываем второе число
     fmt.Scan(&b)
-    
+
     // Обрабатываем операцию с помощью switch
     switch operation {
     case "+":
@@ -22,8 +22,7 @@ func main() {
         fmt.Printf("%.2f\n", result)
     case "-":
         result := a - b
- 	x
-       fmt.Printf("%.2f\n", result)
+        fmt.Printf("%.2f\n", result) // Убрал лишнюю строку с "x"
     case "*":
         result := a * b
         fmt.Printf("%.2f\n", result)
