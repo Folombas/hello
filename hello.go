@@ -3,29 +3,38 @@ package main
 import "fmt"
 
 func main() {
-    var rating float64
+    var a, b float64
+    var operation string
+
+    // Считываем первое число
+    fmt.Scan(&a)
     
-    // Считываем оценку фильма
-    fmt.Print("Введите среднюю оценку фильма (0.0 - 10.0): ")
-    fmt.Scan(&rating)
+    // Считываем символ операции
+    fmt.Scan(&operation)
     
-    // Используем switch без выражения для проверки диапазонов
-    switch {
-    case rating >= 0.0 && rating <= 3.9:
-        fmt.Println("Ужасно!")
-    case rating >= 4.0 && rating <= 6.9:
-        fmt.Println("Слабовато")
-    case rating >= 7.0 && rating <= 8.4:
-        fmt.Println("Неплохо")
-    case rating >= 8.5 && rating <= 10.0:
-        fmt.Println("Отлично!")
+    // Считываем второе число
+    fmt.Scan(&b)
+    
+    // Обрабатываем операцию с помощью switch
+    switch operation {
+    case "+":
+        result := a + b
+        fmt.Printf("%.2f\n", result)
+    case "-":
+        result := a - b
+ 	x
+       fmt.Printf("%.2f\n", result)
+    case "*":
+        result := a * b
+        fmt.Printf("%.2f\n", result)
+    case "/":
+        if b == 0 {
+            fmt.Println("Деление на ноль!")
+        } else {
+            result := a / b
+            fmt.Printf("%.2f\n", result)
+        }
     default:
-        fmt.Println("Оценка вне диапазона")
+        fmt.Println("Неизвестная операция")
     }
 }
-
-
-
-
-
-
