@@ -3,10 +3,26 @@ package main
 import "fmt"
 
 func main() {
-    result := 1
+    // Создаем словарь
+    dictionary := map[string]string{
+        "hello": "привет",
+        "world": "мир", 
+        "go":    "идти",
+        "cat":   "кот",
+	"cow":	"корова",
+	"dog":	"собака",
+    }
+
+    // Запрашиваем слово у пользователя
+    var word string
+    fmt.Scan(&word)
+
+    // Проверяем наличие слова в словаре
+    translation, exists := dictionary[word]
     
-    for result <= 1000 {
-        fmt.Println(result)
-        result *= 2
+    if exists {
+        fmt.Println(translation)
+    } else {
+        fmt.Println("перевод не найден")
     }
 }
