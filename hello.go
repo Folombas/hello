@@ -19,7 +19,10 @@ func main() {
 	"apple": "яблоко",
 	"pineapple": "ананас",
 	"tea":	"чай",
-    }	"cucumber": "огурец",
+    	"cucumber": "огурец",
+	"milk":	"молоко",
+	}
+
 
     // Запрашиваем слово у пользователя
     var word string
