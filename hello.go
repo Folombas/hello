@@ -21,6 +21,7 @@ func main() {
 	"tea":	"чай",
     	"cucumber": "огурец",
 	"milk":	"молоко",
+	"garlic": "чеснок",
 	}
 
 
