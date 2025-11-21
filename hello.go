@@ -22,6 +22,7 @@ func main() {
     	"cucumber": "огурец",
 	"milk":	"молоко",
 	"garlic": "чеснок",
+	"sandwich": "сэндвич",
 	}
 
 
