@@ -23,6 +23,7 @@ func main() {
 	"milk":	"молоко",
 	"garlic": "чеснок",
 	"sandwich": "сэндвич",
+	"table": "стол",
 	}
 
 
