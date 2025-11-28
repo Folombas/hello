@@ -24,6 +24,7 @@ func main() {
 	"garlic": "чеснок",
 	"sandwich": "сэндвич",
 	"table": "стол",
+	"chair": "стул",
 	}
 
 
