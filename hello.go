@@ -25,6 +25,7 @@ func main() {
 	"sandwich": "сэндвич",
 	"table": "стол",
 	"chair": "стул",
+	"mint": "мята",
 	}
 
 
