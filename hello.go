@@ -27,6 +27,7 @@ func main() {
 	"chair": "стул",
 	"mint": "мята",
 	"roof": "крыша",
+	"carriot": "морковь",
 
 	}
 
