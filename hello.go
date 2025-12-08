@@ -29,6 +29,7 @@ func main() {
 	"roof": "крыша",
 	"carrot": "морковь",
 	"cookies": "печенюшки",
+	"fruits": "фрукты",
 	}
 
 
