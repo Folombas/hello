@@ -30,6 +30,7 @@ func main() {
 	"carrot": "морковь",
 	"cookies": "печенюшки",
 	"fruits": "фрукты",
+	"programmer": "программист",
 	}
 
 
