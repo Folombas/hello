@@ -31,6 +31,7 @@ func main() {
 	"cookies": "печенюшки",
 	"fruits": "фрукты",
 	"programmer": "программист",
+	"monkey": "мартышка",
 	}
 
 
