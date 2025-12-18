@@ -33,6 +33,7 @@ func main() {
 	"programmer": "программист",
 	"monkey": "мартышка",
 	"turtle": "черепаха",
+	"bird": "птица",
 	}
 
 
