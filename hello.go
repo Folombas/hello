@@ -35,6 +35,7 @@ func main() {
 	"turtle": "черепаха",
 	"bird": "птица",
 	"flower": "цветок",
+	"butter": "масло",
 	}
 
 
