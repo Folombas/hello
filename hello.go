@@ -37,6 +37,7 @@ func main() {
 	"flower": "цветок",
 	"butter": "масло",
 	"burger": "бургер",
+	"bull": "бык",
 	}
 
 
