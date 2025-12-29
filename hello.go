@@ -39,6 +39,7 @@ func main() {
 	"burger": "бургер",
 	"bull": "бык",
 	"green tea": "зелёный чай",
+	"gamburger": "гамбургер",
 	}
 
 
