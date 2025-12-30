@@ -40,6 +40,7 @@ func main() {
 	"bull": "бык",
 	"green tea": "зелёный чай",
 	"gamburger": "гамбургер",
+	"kakao": "какао",
 	}
 
 
