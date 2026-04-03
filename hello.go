@@ -41,6 +41,7 @@ func main() {
 	"green tea": "зелёный чай",
 	"gamburger": "гамбургер",
 	"kakao": "какао",
+        "planet": "планета",
 	}
 
 
