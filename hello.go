@@ -42,6 +42,7 @@ func main() {
 	"gamburger": "гамбургер",
 	"kakao": "какао",
         "planet": "планета",
+	"pepper": "перец",
 	}
 
 
